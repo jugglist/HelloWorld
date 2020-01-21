@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('DevBuild') {
       steps {
-        sh './HelloWorld.py'
+        python3 HelloWorld.py
       }
     }
 
