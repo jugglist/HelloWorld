@@ -6,7 +6,7 @@ pipeline {
     stage('DevBuild') {
       steps {
         echo 'Building...'
-        sh 'ls'
+        sh 'python3 HelloWorld.py'
       }
     }
 
