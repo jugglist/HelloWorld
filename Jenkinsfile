@@ -1,9 +1,11 @@
 pipeline {
+  
   agent any
+  
   stages {
     stage('DevBuild') {
       steps {
-        ls
+        echo 'Building...'
       }
     }
 
